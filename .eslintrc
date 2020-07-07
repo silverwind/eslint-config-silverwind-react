@@ -7,7 +7,7 @@ plugins:
 
 settings:
   react:
-    version: detect
+    version: 16
 
 parserOptions:
   ecmaFeatures:
