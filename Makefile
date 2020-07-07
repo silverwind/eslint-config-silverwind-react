@@ -1,4 +1,5 @@
 test:
+	node build.js
 	yarn -s run eslint .
 	node -p 'process.exit(typeof require(".").parserOptions.ecmaFeatures === "object" ? 0 : 1)'
 
