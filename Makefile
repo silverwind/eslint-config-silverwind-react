@@ -1,6 +1,6 @@
 test:
 	yarn -s run eslint .
-	node -p 'process.exit(typeof require(".").parserOptions.ecmaVersion === "number" ? 0 : 1)'
+	node -p 'process.exit(typeof require(".").parserOptions.ecmaFeatures === "object" ? 0 : 1)'
 
 publish:
 	if git ls-remote --exit-code origin &>/dev/null; then git push -u -f --tags origin master; fi
