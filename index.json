@@ -1,9 +1,20 @@
 {
+  "root": true,
   "extends": "silverwind",
   "plugins": [
     "react-hooks",
     "react"
   ],
+  "settings": {
+    "react": {
+      "version": "16"
+    }
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
   "rules": {
     "react-hooks/exhaustive-deps": [
       1
@@ -154,8 +165,7 @@
       0
     ],
     "react/jsx-space-before-closing": [
-      1,
-      "never"
+      0
     ],
     "react/jsx-tag-spacing": [
       1,
