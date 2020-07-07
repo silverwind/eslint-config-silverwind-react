@@ -1,0 +1,32 @@
+{
+  "name": "eslint-config-silverwind-react",
+  "version": "0.0.0",
+  "description": "Personal ESLint configuration",
+  "author": "silverwind <me@silverwind.io>",
+  "repository": "silverwind/eslint-config-silverwind-react",
+  "license": "BSD-2-Clause",
+  "main": "index.json",
+  "files": [
+    "index.json"
+  ],
+  "scripts": {
+    "test": "make test"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "dependencies": {
+    "eslint-config-silverwind": "*",
+  },
+  "devDependencies": {
+    "eslint": "7.4.0",
+    "js-yaml": "3.14.0",
+    "updates": "10.2.15",
+    "versions": "8.4.2"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "silverwind"
+  ]
+}
