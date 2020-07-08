@@ -16,7 +16,7 @@
     "node": ">=10.0.0"
   },
   "dependencies": {
-    "eslint-config-silverwind": "*",
+    "eslint-config-silverwind": "^16.0.0",
     "eslint-plugin-react": "^7.20.3",
     "eslint-plugin-react-hooks": "^4.0.5"
   },
