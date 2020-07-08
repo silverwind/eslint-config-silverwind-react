@@ -51,7 +51,7 @@ rules:
   react/jsx-no-script-url: [0]
   react/jsx-no-target-blank: [1]
   react/jsx-no-undef: [1]
-  react/jsx-no-useless-fragment: [1]
+  react/jsx-no-useless-fragment: [0]
   react/jsx-one-expression-per-line: [0]
   react/jsx-pascal-case: [0]
   react/jsx-props-no-multi-spaces: [1]
