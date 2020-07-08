@@ -1,6 +1,13 @@
 {
   "root": true,
-  "extends": "silverwind",
+  "reportUnusedDisableDirectives": true,
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 2020,
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
   "plugins": [
     "react-hooks",
     "react"
@@ -8,11 +15,6 @@
   "settings": {
     "react": {
       "version": "16"
-    }
-  },
-  "parserOptions": {
-    "ecmaFeatures": {
-      "jsx": true
     }
   },
   "rules": {
