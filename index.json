@@ -121,10 +121,7 @@
       0
     ],
     "react/jsx-no-bind": [
-      1,
-      {
-        "ignoreRefs": true
-      }
+      0
     ],
     "react/jsx-no-comment-textnodes": [
       1
