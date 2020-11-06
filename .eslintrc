@@ -13,7 +13,7 @@ plugins:
 
 settings:
   react:
-    version: "17"
+    version: "detect"
 
 rules:
   react-hooks/exhaustive-deps: [1, {additionalHooks: useRecoilCallback}]
