@@ -182,7 +182,7 @@
       }
     ],
     "react/jsx-uses-react": [
-      1
+      0
     ],
     "react/jsx-uses-vars": [
       1
@@ -278,7 +278,7 @@
       0
     ],
     "react/react-in-jsx-scope": [
-      1
+      0
     ],
     "react/require-default-props": [
       0
