@@ -16,15 +16,15 @@
     "node": ">=10.0.0"
   },
   "dependencies": {
-    "eslint-plugin-react": "7.23.1",
+    "eslint-plugin-react": "7.23.2",
     "eslint-plugin-react-hooks": "4.2.0"
   },
   "devDependencies": {
-    "eslint": "7.23.0",
-    "js-yaml": "4.0.0",
+    "eslint": "7.25.0",
+    "js-yaml": "4.1.0",
     "react": "17.0.2",
-    "updates": "11.4.3",
-    "versions": "8.4.5"
+    "updates": "12.0.3",
+    "versions": "8.4.7"
   },
   "keywords": [
     "eslint",
