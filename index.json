@@ -229,6 +229,9 @@
     "react/no-multi-comp": [
       0
     ],
+    "react/no-namespace": [
+      0
+    ],
     "react/no-redundant-should-component-update": [
       1
     ],
@@ -266,6 +269,9 @@
       0
     ],
     "react/prefer-es6-class": [
+      0
+    ],
+    "react/prefer-exact-props": [
       0
     ],
     "react/prefer-read-only-props": [
