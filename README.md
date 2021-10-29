@@ -4,7 +4,7 @@
 # Installation
 
 ``` bash
-yarn add -D eslint eslint-config-silverwind-react && echo 'extends: silverwind-react' > .eslintrc
+npm i -D eslint eslint-config-silverwind-react && echo 'extends: silverwind-react' > .eslintrc
 ```
 
 © [silverwind](https://github.com/silverwind), distributed under BSD licence.
