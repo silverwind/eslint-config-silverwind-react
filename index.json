@@ -182,7 +182,7 @@
       }
     ],
     "react/jsx-uses-react": [
-      0
+      1
     ],
     "react/jsx-uses-vars": [
       1
