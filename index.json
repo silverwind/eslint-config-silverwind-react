@@ -23,7 +23,7 @@
       {
         "args": "all",
         "argsIgnorePattern": "^_",
-        "varsIgnorePattern": "^(_|React)",
+        "varsIgnorePattern": "^(_|React$)",
         "caughtErrorsIgnorePattern": "^_",
         "ignoreRestSiblings": false
       }
