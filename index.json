@@ -9,8 +9,8 @@
     }
   },
   "plugins": [
-    "react-hooks",
-    "react"
+    "react",
+    "react-hooks"
   ],
   "settings": {
     "react": {
@@ -19,7 +19,7 @@
   },
   "rules": {
     "no-unused-vars": [
-      2,
+      1,
       {
         "args": "all",
         "argsIgnorePattern": "^_",
@@ -143,7 +143,7 @@
       1
     ],
     "react/jsx-no-constructed-context-values": [
-      2
+      1
     ],
     "react/jsx-no-duplicate-props": [
       1
@@ -209,6 +209,9 @@
     "react/no-array-index-key": [
       0
     ],
+    "react/no-arrow-function-lifecycle": [
+      1
+    ],
     "react/no-children-prop": [
       1
     ],
@@ -232,6 +235,9 @@
     ],
     "react/no-find-dom-node": [
       0
+    ],
+    "react/no-invalid-html-attribute": [
+      1
     ],
     "react/no-is-mounted": [
       0
@@ -268,6 +274,9 @@
     ],
     "react/no-unsafe": [
       0
+    ],
+    "react/no-unused-class-component-methods": [
+      1
     ],
     "react/no-unused-prop-types": [
       0

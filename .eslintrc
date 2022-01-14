@@ -8,15 +8,15 @@ parserOptions:
     jsx: true
 
 plugins:
-  - react-hooks
   - react
+  - react-hooks
 
 settings:
   react:
     version: "detect"
 
 rules:
-  no-unused-vars: [2, {args: all, argsIgnorePattern: ^_, varsIgnorePattern: ^(_|React$), caughtErrorsIgnorePattern: ^_, ignoreRestSiblings: false}]
+  no-unused-vars: [1, {args: all, argsIgnorePattern: ^_, varsIgnorePattern: ^(_|React$), caughtErrorsIgnorePattern: ^_, ignoreRestSiblings: false}]
   react-hooks/exhaustive-deps: [1, {additionalHooks: useRecoilCallback}]
   react-hooks/rules-of-hooks: [1]
   react/boolean-prop-naming: [0]
@@ -50,7 +50,7 @@ rules:
   react/jsx-newline: [0]
   react/jsx-no-bind: [0]
   react/jsx-no-comment-textnodes: [1]
-  react/jsx-no-constructed-context-values: [2]
+  react/jsx-no-constructed-context-values: [1]
   react/jsx-no-duplicate-props: [1]
   react/jsx-no-literals: [0]
   react/jsx-no-script-url: [0]
@@ -71,6 +71,7 @@ rules:
   react/no-access-state-in-setstate: [0]
   react/no-adjacent-inline-elements: [0]
   react/no-array-index-key: [0]
+  react/no-arrow-function-lifecycle: [1]
   react/no-children-prop: [1]
   react/no-danger-with-children: [0]
   react/no-danger: [0]
@@ -79,6 +80,7 @@ rules:
   react/no-did-update-set-state: [0]
   react/no-direct-mutation-state: [1]
   react/no-find-dom-node: [0]
+  react/no-invalid-html-attribute: [1]
   react/no-is-mounted: [0]
   react/no-multi-comp: [0]
   react/no-namespace: [0]
@@ -91,6 +93,7 @@ rules:
   react/no-unescaped-entities: [0]
   react/no-unknown-property: [1]
   react/no-unsafe: [0]
+  react/no-unused-class-component-methods: [1]
   react/no-unused-prop-types: [0]
   react/no-unused-state: [1]
   react/no-will-update-set-state: [0]
