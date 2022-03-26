@@ -25,6 +25,7 @@
         "argsIgnorePattern": "^_",
         "varsIgnorePattern": "^(_|React$)",
         "caughtErrorsIgnorePattern": "^_",
+        "destructuredArrayIgnorePattern": "^_",
         "ignoreRestSiblings": false
       }
     ],
@@ -68,6 +69,12 @@
       0
     ],
     "react/function-component-definition": [
+      0
+    ],
+    "react/hook-use-state": [
+      2
+    ],
+    "react/iframe-missing-sandbox": [
       0
     ],
     "react/jsx-boolean-value": [
@@ -125,7 +132,10 @@
       }
     ],
     "react/jsx-key": [
-      1
+      1,
+      {
+        "warnOnDuplicates": true
+      }
     ],
     "react/jsx-max-depth": [
       0
