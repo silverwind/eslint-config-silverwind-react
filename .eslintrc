@@ -54,6 +54,7 @@ rules:
   react/jsx-no-comment-textnodes: [1]
   react/jsx-no-constructed-context-values: [1]
   react/jsx-no-duplicate-props: [1]
+  react/jsx-no-leaked-render: [2]
   react/jsx-no-literals: [0]
   react/jsx-no-script-url: [0]
   react/jsx-no-target-blank: [1]
