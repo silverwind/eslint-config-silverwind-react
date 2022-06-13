@@ -57,7 +57,7 @@ rules:
   react/jsx-no-leaked-render: [0]
   react/jsx-no-literals: [0]
   react/jsx-no-script-url: [0]
-  react/jsx-no-target-blank: [1]
+  react/jsx-no-target-blank: [0]
   react/jsx-no-undef: [1]
   react/jsx-no-useless-fragment: [0]
   react/jsx-one-expression-per-line: [0]
