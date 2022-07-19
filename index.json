@@ -23,7 +23,7 @@
       {
         "args": "all",
         "argsIgnorePattern": "^_",
-        "varsIgnorePattern": "^(_|React$)",
+        "varsIgnorePattern": "^_",
         "caughtErrorsIgnorePattern": "^_",
         "destructuredArrayIgnorePattern": "^_",
         "ignoreRestSiblings": false
