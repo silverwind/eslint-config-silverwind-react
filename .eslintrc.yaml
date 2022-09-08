@@ -113,5 +113,5 @@ rules:
   react/sort-prop-types: [0]
   react/state-in-constructor: [0]
   react/static-property-placement: [0]
-  react/style-prop-object: [0]
+  react/style-prop-object: [1]
   react/void-dom-elements-no-children: [0]
