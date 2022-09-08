@@ -16,7 +16,7 @@ settings:
     version: "detect"
 
 rules:
-  react-hooks/exhaustive-deps: [1, {additionalHooks: useRecoilCallback}]
+  react-hooks/exhaustive-deps: [1]
   react-hooks/rules-of-hooks: [1]
   react/boolean-prop-naming: [0]
   react/button-has-type: [0]
