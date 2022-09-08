@@ -85,7 +85,7 @@ rules:
   react/no-invalid-html-attribute: [1]
   react/no-is-mounted: [0]
   react/no-multi-comp: [0]
-  react/no-namespace: [0]
+  react/no-namespace: [1]
   react/no-redundant-should-component-update: [1]
   react/no-render-return-value: [0]
   react/no-set-state: [0]
