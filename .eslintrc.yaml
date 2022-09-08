@@ -16,7 +16,6 @@ settings:
     version: "detect"
 
 rules:
-  no-unused-vars: [1, {args: all, argsIgnorePattern: ^_, varsIgnorePattern: ^_, caughtErrorsIgnorePattern: ^_, destructuredArrayIgnorePattern: ^_, ignoreRestSiblings: false}]
   react-hooks/exhaustive-deps: [1, {additionalHooks: useRecoilCallback}]
   react-hooks/rules-of-hooks: [1]
   react/boolean-prop-naming: [0]
