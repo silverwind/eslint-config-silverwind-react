@@ -93,7 +93,7 @@ rules:
   react/no-this-in-sfc: [1]
   react/no-typos: [1]
   react/no-unescaped-entities: [0]
-  react/no-unknown-property: [1]
+  react/no-unknown-property: [1, {ignore: [css]}]
   react/no-unsafe: [0]
   react/no-unused-class-component-methods: [1]
   react/no-unused-prop-types: [0]
