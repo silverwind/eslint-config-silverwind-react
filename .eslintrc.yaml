@@ -13,7 +13,7 @@ plugins:
 
 settings:
   react:
-    version: "detect"
+    version: detect
 
 rules:
   react-hooks/exhaustive-deps: [1]
