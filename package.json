@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-silverwind-react",
   "version": "15.0.5",
-  "description": "Personal ESLint configuration",
+  "description": "Exhausive ESLint React configuration",
   "author": "silverwind <me@silverwind.io>",
   "repository": "silverwind/eslint-config-silverwind-react",
   "license": "BSD-2-Clause",
@@ -11,9 +11,6 @@
   "files": [
     "index.json"
   ],
-  "engines": {
-    "node": ">=14"
-  },
   "dependencies": {
     "eslint-plugin-react": "7.31.11",
     "eslint-plugin-react-hooks": "4.6.0"
@@ -24,10 +21,5 @@
     "react": "18.2.0",
     "updates": "13.2.1",
     "versions": "10.2.4"
-  },
-  "keywords": [
-    "eslint",
-    "eslint-config",
-    "silverwind"
-  ]
+  }
 }
