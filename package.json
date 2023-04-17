@@ -16,7 +16,7 @@
     "eslint-plugin-react-hooks": "4.6.0"
   },
   "devDependencies": {
-    "eslint": "8.37.0",
+    "eslint": "8.38.0",
     "js-yaml": "4.1.0",
     "react": "18.2.0",
     "updates": "13.4.0",
