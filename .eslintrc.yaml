@@ -19,7 +19,7 @@ settings:
 rules:
   react-hooks/exhaustive-deps: [1]
   react-hooks/rules-of-hooks: [1]
-  react-refresh/only-export-components: [2]
+  react-refresh/only-export-components: [2, {allowConstantExport: true}]
   react/boolean-prop-naming: [0]
   react/button-has-type: [0]
   react/default-props-match-prop-types: [0]
