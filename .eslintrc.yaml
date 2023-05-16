@@ -36,7 +36,7 @@ rules:
   react/jsx-boolean-value: [1, always]
   react/jsx-child-element-spacing: [0]
   react/jsx-closing-bracket-location: [0]
-  react/jsx-closing-tag-location: [1]
+  react/jsx-closing-tag-location: [0]
   react/jsx-curly-brace-presence: [0]
   react/jsx-curly-newline: [1, consistent]
   react/jsx-curly-spacing: [1, {when: never}]
