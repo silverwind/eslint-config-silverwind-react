@@ -8,9 +8,10 @@ parserOptions:
     jsx: true
 
 plugins:
-  - react
-  - react-hooks
-  - react-refresh
+  - eslint-plugin-react
+  - eslint-plugin-react-hooks
+  - eslint-plugin-react-refresh
+  - eslint-plugin-validate-jsx-nesting
 
 settings:
   react:
@@ -118,3 +119,4 @@ rules:
   react/static-property-placement: [0]
   react/style-prop-object: [1]
   react/void-dom-elements-no-children: [1]
+  validate-jsx-nesting/no-invalid-jsx-nesting: [2]
