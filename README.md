@@ -8,7 +8,7 @@ In your `.eslintrc.yaml`:
 
 ```yaml
 extends:
-  - silverwind-react
+  - eslint-config-silverwind-react
 ```
 
 ## Related
