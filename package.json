@@ -18,10 +18,10 @@
     "eslint-plugin-validate-jsx-nesting": "0.1.1"
   },
   "devDependencies": {
-    "eslint": "8.41.0",
+    "eslint": "8.42.0",
     "js-yaml": "4.1.0",
     "react": "18.2.0",
-    "updates": "14.1.0",
-    "versions": "11.0.0"
+    "updates": "14.1.1",
+    "versions": "11.0.1"
   }
 }
