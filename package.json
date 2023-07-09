@@ -14,14 +14,14 @@
   "dependencies": {
     "eslint-plugin-react": "7.32.2",
     "eslint-plugin-react-hooks": "4.6.0",
-    "eslint-plugin-react-refresh": "0.4.1",
+    "eslint-plugin-react-refresh": "0.4.3",
     "eslint-plugin-validate-jsx-nesting": "0.1.1"
   },
   "devDependencies": {
     "eslint": "8.44.0",
     "js-yaml": "4.1.0",
     "react": "18.2.0",
-    "updates": "14.3.0",
+    "updates": "14.3.2",
     "versions": "11.0.1"
   }
 }
