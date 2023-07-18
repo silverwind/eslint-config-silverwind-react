@@ -9,7 +9,7 @@
   "main": "./index.json",
   "exports": "./index.json",
   "files": [
-    "index.json"
+    "./index.json"
   ],
   "dependencies": {
     "eslint-plugin-react": "7.32.2",
