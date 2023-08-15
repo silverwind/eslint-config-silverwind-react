@@ -12,16 +12,16 @@
     "./index.json"
   ],
   "dependencies": {
-    "eslint-plugin-react": "7.33.0",
+    "eslint-plugin-react": "7.33.1",
     "eslint-plugin-react-hooks": "4.6.0",
     "eslint-plugin-react-refresh": "0.4.3",
     "eslint-plugin-validate-jsx-nesting": "0.1.1"
   },
   "devDependencies": {
-    "eslint": "8.46.0",
+    "eslint": "8.47.0",
     "js-yaml": "4.1.0",
     "react": "18.2.0",
-    "updates": "14.3.4",
-    "versions": "11.0.1"
+    "updates": "14.3.5",
+    "versions": "11.0.2"
   }
 }
