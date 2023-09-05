@@ -42,7 +42,7 @@ rules:
   react/jsx-curly-newline: [1, consistent]
   react/jsx-curly-spacing: [1, {when: never}]
   react/jsx-equals-spacing: [1, never]
-  react/jsx-filename-extension: [2, {allow: always, extensions: [.jsx,.tsx]}]
+  react/jsx-filename-extension: [2, {allow: as-needed, extensions: [.jsx,.tsx]}]
   react/jsx-first-prop-new-line: [0]
   react/jsx-fragments: [0]
   react/jsx-handler-names: [0]
