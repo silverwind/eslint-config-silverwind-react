@@ -16,11 +16,11 @@
     "eslint-plugin-jsx-a11y": "6.8.0",
     "eslint-plugin-react": "7.33.2",
     "eslint-plugin-react-hooks": "4.6.0",
-    "eslint-plugin-react-refresh": "0.4.4",
+    "eslint-plugin-react-refresh": "0.4.5",
     "eslint-plugin-validate-jsx-nesting": "0.1.1"
   },
   "devDependencies": {
-    "eslint": "8.54.0",
+    "eslint": "8.55.0",
     "js-yaml": "4.1.0",
     "react": "18.2.0",
     "updates": "15.0.4",
