@@ -33,6 +33,7 @@ rules:
   "@stylistic/jsx/jsx-max-props-per-line": [0]
   "@stylistic/jsx/jsx-newline": [0]
   "@stylistic/jsx/jsx-one-expression-per-line": [0]
+  "@stylistic/jsx/jsx-pascal-case": [2, {allowAllCaps: true}]
   "@stylistic/jsx/jsx-props-no-multi-spaces": [2]
   "@stylistic/jsx/jsx-self-closing-comp": [2]
   "@stylistic/jsx/jsx-sort-props": [0]
