@@ -18,6 +18,9 @@ plugins:
 settings:
   react:
     version: detect
+  linkComponents:
+    - name: Link
+      linkAttribute: href
 
 rules:
   "@stylistic/jsx/jsx-child-element-spacing": [0]
@@ -106,7 +109,7 @@ rules:
   react/jsx-no-duplicate-props: [2]
   react/jsx-no-leaked-render: [0]
   react/jsx-no-literals: [0]
-  react/jsx-no-script-url: [2]
+  react/jsx-no-script-url: [2, {includeFromSettings: true}]
   react/jsx-no-target-blank: [0]
   react/jsx-no-undef: [2]
   react/jsx-no-useless-fragment: [2, {allowExpressions: false}]
@@ -139,7 +142,7 @@ rules:
   react/no-this-in-sfc: [2]
   react/no-typos: [2]
   react/no-unescaped-entities: [2]
-  react/no-unknown-property: [2, {ignore: [css]}]
+  react/no-unknown-property: [2, {ignore: [css], requireDataLowercase: true}]
   react/no-unsafe: [0]
   react/no-unused-class-component-methods: [2]
   react/no-unused-prop-types: [0]
