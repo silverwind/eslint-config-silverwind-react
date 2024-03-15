@@ -142,7 +142,7 @@ rules:
   react/no-this-in-sfc: [2]
   react/no-typos: [2]
   react/no-unescaped-entities: [2]
-  react/no-unknown-property: [2, {ignore: [css], requireDataLowercase: false}] # https://github.com/jsx-eslint/eslint-plugin-react/issues/3712
+  react/no-unknown-property: [2, {ignore: [css], requireDataLowercase: true}]
   react/no-unsafe: [0]
   react/no-unused-class-component-methods: [2]
   react/no-unused-prop-types: [0]
