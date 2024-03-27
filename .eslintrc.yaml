@@ -1,12 +1,11 @@
 root: true
 reportUnusedDisableDirectives: true
-parser: "@typescript-eslint/parser"
 
 parserOptions:
   sourceType: module
   ecmaVersion: latest
-  ecmaFeatures: {jsx: true}
-  project: true
+  ecmaFeatures:
+    jsx: true
 
 plugins:
   - "@eslint-react/eslint-plugin"
