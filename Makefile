@@ -10,6 +10,10 @@ build: node_modules
 	node build.js
 
 .PHONY: test
+lint: node_modules build
+	npx eslint .
+
+.PHONY: test
 test: node_modules build
 	npx eslint .
 
