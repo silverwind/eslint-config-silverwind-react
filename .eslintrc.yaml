@@ -99,7 +99,7 @@ rules:
   react/hook-use-state: [2, {allowDestructuredState: true}]
   react/iframe-missing-sandbox: [0]
   react/jsx-boolean-value: [2, always]
-  react/jsx-filename-extension: [2, {allow: as-needed, extensions: [.jsx,.tsx], ignoreFilesWithoutCode: true}]
+  react/jsx-filename-extension: [0]
   react/jsx-fragments: [2, element]
   react/jsx-handler-names: [0]
   react/jsx-key: [2, {warnOnDuplicates: true}]
