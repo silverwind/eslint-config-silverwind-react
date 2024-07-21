@@ -115,6 +115,7 @@ rules:
   react/jsx-no-useless-fragment: [2, {allowExpressions: false}]
   react/jsx-pascal-case: [0] # covered by @stylistic/jsx/jsx-pascal-case
   react/jsx-props-no-spreading: [0]
+  react/jsx-props-no-spread-multi: [2]
   react/jsx-space-before-closing: [0]
   react/jsx-uses-react: [0]
   react/jsx-uses-vars: [2]
