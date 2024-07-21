@@ -16,9 +16,9 @@ plugins:
   - eslint-plugin-validate-jsx-nesting
 
 settings:
-  react:
+  react: # used by eslint-plugin-react
     version: detect
-  linkComponents:
+  linkComponents: # used by eslint-plugin-react
     - name: Link
       linkAttribute: href
 
