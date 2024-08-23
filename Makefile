@@ -7,15 +7,15 @@ deps: node_modules
 
 .PHONY: build
 build: node_modules
-	node build.js
+	./build.ts
 
 .PHONY: test
 lint: node_modules build
 	npx eslint .
+	npx tsc
 
 .PHONY: test
 test: node_modules build
-	npx eslint .
 
 .PHONY: publish
 publish: node_modules

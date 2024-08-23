@@ -20,9 +20,12 @@
     "eslint-plugin-validate-jsx-nesting": "0.1.1"
   },
   "devDependencies": {
+    "@types/node": "22.5.0",
     "eslint": "8.57.0",
     "js-yaml": "4.1.0",
     "react": "18.3.1",
+    "typescript": "5.5.4",
+    "typescript-config-silverwind": "6.0.0",
     "updates": "16.4.0",
     "versions": "12.1.2"
   }

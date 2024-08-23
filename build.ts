@@ -1,5 +1,6 @@
+#!/usr/bin/env -S node --experimental-strip-types --no-warnings
 import {load} from "js-yaml";
-import {readFileSync, writeFileSync} from "fs";
+import {readFileSync, writeFileSync} from "node:fs";
 
 const input = new URL(".eslintrc.yaml", import.meta.url);
 const output = new URL("index.json", import.meta.url);
