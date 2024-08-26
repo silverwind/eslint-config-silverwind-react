@@ -31,15 +31,15 @@ update: node_modules
 
 .PHONY: patch
 patch: node_modules test
-	npx versions -c 'node build.js' patch package.json package-lock.json
+	npx versions -c './build.ts' patch package.json package-lock.json
 	$(MAKE) --no-print-directory publish
 
 .PHONY: minor
 minor: node_modules test
-	npx versions -c 'node build.js' minor package.json package-lock.json
+	npx versions -c './build.ts' minor package.json package-lock.json
 	$(MAKE) --no-print-directory publish
 
 .PHONY: major
 major: node_modules test
-	npx versions -c 'node build.js' major package.json package-lock.json
+	npx versions -c './build.ts' major package.json package-lock.json
 	$(MAKE) --no-print-directory publish
