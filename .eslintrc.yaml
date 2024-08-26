@@ -26,7 +26,7 @@ rules:
   "@stylistic/jsx/jsx-child-element-spacing": [0]
   "@stylistic/jsx/jsx-closing-bracket-location": [0]
   "@stylistic/jsx/jsx-closing-tag-location": [2]
-  "@stylistic/jsx/jsx-curly-brace-presence": [2, {props: never, children: never, propElementValues: always}]
+  "@stylistic/jsx/jsx-curly-brace-presence": [0]
   "@stylistic/jsx/jsx-curly-newline": [2, consistent]
   "@stylistic/jsx/jsx-curly-spacing": [2, {when: never}]
   "@stylistic/jsx/jsx-equals-spacing": [2, never]
