@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-silverwind-react",
-  "version": "32.0.1",
+  "version": "32.0.2",
   "description": "Exhausive ESLint React configuration",
   "author": "silverwind <me@silverwind.io>",
   "repository": "silverwind/eslint-config-silverwind-react",
